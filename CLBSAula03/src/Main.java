@@ -42,12 +42,11 @@ public class Main {
                                                      } else if(mes == 11) {
                                                       System.out.println("Novembro");
                                                         }else {
-                                                        //    if(mes == 12) {
+                                                            if(mes == 12) {
                                                             System.out.println("Dezembro");
-                                                        }
-                                                        // else{
-                                                        //     System.out.println("Mês indefinido");
-                                                        // }
+                                                            }else{
+                                                                System.out.println("Mês indefinido");
+                                                            }
 
     }
 
@@ -143,12 +142,12 @@ public class Main {
             case "Sábado":
                 System.out.println(7);
                 break;
- //           case "Domingo":
- //               System.out.println(1);
-  //              break;
-            default:
+            case "Domingo":
                 System.out.println(1);
-                    System.out.println("Dia inválido");
+                break;
+            default:
+             //   System.out.println(1);
+                System.out.println("Dia inválido");
                 break;
      
         }       
